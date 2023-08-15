@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:transparent;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000; /* Ensure the header appears above the map */
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.color-square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
